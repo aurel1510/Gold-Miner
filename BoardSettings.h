@@ -2,7 +2,7 @@
 
 #include <SFML/Graphics.hpp>
 
-const enum feature{EXTRA_DYNAMITE_F, FREEZE_F, EXTRA_COINS};
+enum feature{EXTRA_DYNAMITE_F, FREEZE_F, EXTRA_COINS};
 
 class BoardSettings
 {
