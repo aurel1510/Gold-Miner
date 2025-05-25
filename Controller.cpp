@@ -2,7 +2,7 @@
 
 //=============================================================================
 Controller::Controller()
-	:m_window(sf::VideoMode(unsigned int(ControllerSettings::getWindowSize().x), unsigned int(ControllerSettings::getWindowSize().y)),
+	:m_window(sf::VideoMode(static_cast<unsigned int>(ControllerSettings::getWindowSize().x), static_cast<unsigned int>(ControllerSettings::getWindowSize().y)),
 							ControllerSettings::getWindowTitle()),
 	m_homeMenu(ControllerSettings::getWindowSize()),
 	m_gameController(ControllerSettings::getWindowSize())

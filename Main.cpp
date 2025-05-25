@@ -5,7 +5,7 @@
 
 int main()
 {
-	srand(unsigned int(time(NULL)));
+	srand(static_cast<unsigned int>(time(NULL)));
 
 	Controller controller;
 	controller.run();
